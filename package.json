@@ -1,0 +1,19 @@
+{
+  "name": "nodeauthapi",
+  "version": "1.0.0",
+  "description": "jwt-authentication-demo",
+  "license": "MIT",
+  "author": "Ankur",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
